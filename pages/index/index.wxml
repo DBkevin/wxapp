@@ -1,0 +1,14 @@
+<view class="container">
+  <view id="wrapper">
+        <text>
+           今天吃什么，{{eat}}
+            <text>\n</text>
+            <text>\n</text>
+            <text style="color:#FF9733" id="what">{{what}}</text>
+            </text>
+            <button  bindtap="start" id="start">{{type}}</button>
+    </view>
+   <mp-dialog title="今天吃个啥?" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+        <view>这么作?今天别吃了!</view>
+    </mp-dialog>
+</view>

@@ -1,0 +1,12 @@
+page{
+background-color: #EEE;
+}
+#wrapper{
+  font-size:42rpx;
+  text-align: center;
+
+}
+#what{
+  font-size:52rpx;
+  margin-top:20rpx 0;
+}
